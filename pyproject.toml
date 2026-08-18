@@ -22,3 +22,8 @@ include-package-data = true
 # This ensures all files inside the resources folder are copied to site-packages
 "zoo_dev.resources" = ["*"]
 
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
